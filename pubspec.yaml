@@ -1,0 +1,34 @@
+name: wakeupp
+description: A challenge-based alarm app for Android.
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # UI & Fonts
+  google_fonts: ^6.1.0
+
+  # State management
+  provider: ^6.1.1
+
+  # Utilities
+  uuid: ^4.3.3
+
+  # (Production additions)
+  # android_alarm_manager_plus: ^3.0.3   # Real alarm scheduling
+  # audioplayers: ^5.2.1                 # Sound playback
+  # vibration: ^1.8.4                    # Vibration control
+  # file_picker: ^6.1.1                  # Custom MP3 picker
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.0
+
+flutter:
+  uses-material-design: true
